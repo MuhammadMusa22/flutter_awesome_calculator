@@ -43,14 +43,13 @@ class _MyHomePageState extends State<MyHomePage> {
         child: FlutterAwesomeCalculator(
           context: context,
           digitsButtonColor: Colors.white,
-          backgroundColor: Colors.blueGrey,
-          expressionAnswerColor: Colors.white,
-          //height: 400,
+          backgroundColor: Colors.white,
+          expressionAnswerColor: Colors.black,
           showAnswerField: true,
           fractionDigits: 1,
           buttonRadius: 8,
           onChanged: (ans,expression){
-           log('Expression : $expression');
+
           },
         ),
       ),
