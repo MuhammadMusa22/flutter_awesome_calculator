@@ -16,9 +16,9 @@ Flutter package for adding calculator to your app using Flutter Awesome Calculat
 ## Features
 
 TODO: List what your package can do. Maybe include images, gifs, or videos.
+<img src="https://raw.githubusercontent.com/MuhammadMusa22/calculator_package/main/assets/calculator_ui.jpg" alt="Calculator UI" width="300" height="540">
 
 ## Getting started
-<img src="https://raw.githubusercontent.com/MuhammadMusa22/calculator_package/main/assets/calculator_ui.jpg" alt="Calculator UI" width="300" height="540">
 TODO: List prerequisites and provide or point to information on how to
 start using the package.
 
