@@ -17,20 +17,49 @@ Flutter package for adding calculator to your app using Flutter Awesome Calculat
 <img src="https://raw.githubusercontent.com/MuhammadMusa22/calculator_package/main/assets/calculator_ui.jpg" alt="Calculator UI" width="300" height="540">
 
 ## Getting started
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
 
-## Usage
+To use this plugin, add flutter_awesome_calculator as a dependency in your pubspec.yaml file.
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
+Import library in your file
 
 ```dart
-const like = 'sample';
+  
+  import 'package:calculator/flutter_awesome_calculator.dart';
+  
 ```
+## Usage
+
+```
+FlutterAwesomeCalculator(
+          context: context,
+          digitsButtonColor: Colors.white,
+          backgroundColor: Colors.white,
+          expressionAnswerColor: Colors.black,
+          onChanged: (answer,expression){
+
+          },
+        );
+```
+You can show or hide answer field from calculator using bool value <b>showAnswerField</b>.
+
+```
+FlutterAwesomeCalculator(
+          context: context,
+          showAnswerField:true
+        );
+```
+
+The callback method <b>onChanged</b> has two parameters, one is expression and other one is answer, which you can use and show in your screen.
+
+```
+FlutterAwesomeCalculator(
+          context: context,
+          onChanged: (answer,expression){
+          
+          },
+        );
+```        
 
 ## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
+Contributions to this repository are welcome.
