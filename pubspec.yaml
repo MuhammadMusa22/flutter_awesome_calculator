@@ -1,7 +1,6 @@
 name: calculator
 description: A new Flutter project.
 version: 0.0.1
-authors: Muhammad Musa<musa.dev.22@gmail.com>
 homepage: https://github.com/MuhammadMusa22/calculator_package.git
 
 environment:
@@ -12,11 +11,12 @@ dependencies:
   flutter:
     sdk: flutter
 
+  math_expressions: ^2.3.1
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.0
-  math_expressions: ^2.3.1
 
 
 # For information on the generic Dart part of this file, see the
