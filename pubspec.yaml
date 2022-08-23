@@ -1,6 +1,6 @@
-name: calculator
-description: A new Flutter project.
-version: 0.0.1
+name: flutter_awesome_calculator
+description: Flutter calculator package for adding calculator into flutter app.
+version: 1.0.0
 homepage: https://github.com/MuhammadMusa22/calculator_package.git
 
 environment:
