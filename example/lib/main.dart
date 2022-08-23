@@ -1,7 +1,7 @@
 import 'dart:developer';
 
 import 'package:flutter/material.dart';
-import 'package:calculator/flutter_awesome_calculator.dart';
+import 'package:flutter_awesome_calculator/flutter_awesome_calculator.dart';
 
 void main() {
   runApp(const MyApp());
