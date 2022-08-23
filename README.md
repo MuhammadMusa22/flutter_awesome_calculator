@@ -11,7 +11,7 @@ Import library in your file
 
 ```dart
   
-  import 'package:calculator/flutter_awesome_calculator.dart';
+  import 'package:flutter_awesome_calculator/flutter_awesome_calculator.dart';
   
 ```
 ## Usage
