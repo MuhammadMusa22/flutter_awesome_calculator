@@ -2,8 +2,8 @@
 
 library calculator;
 
-import 'package:calculator/widgets/calculator_button.dart';
-import 'package:calculator/widgets/error_snack_bar.dart';
+import 'package:flutter_awesome_calculator/widgets/calculator_button.dart';
+import 'package:flutter_awesome_calculator/widgets/error_snack_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:math_expressions/math_expressions.dart';
 
